@@ -243,3 +243,21 @@ h3{
             color: white;
             font-size: 3rem ;
         }
+
+        p{
+            width: 90%;
+            font-family: 'Raleway', sans-serif;
+            font-family: 'Ubuntu', sans-serif;
+          
+        }
+        .part{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #lastP{
+            width: 90%;
+        }
+        
+    }

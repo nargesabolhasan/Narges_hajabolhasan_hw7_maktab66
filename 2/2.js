@@ -9,4 +9,13 @@ constructor(input,input2){
     return `name: ${this.name} ,type: ${this.type}`
 }
 }
-
+class Book extends Media {
+    constructor(input,input2){
+        super(input,input2)
+    }
+    bookInfo(){
+        return this.info()
+    }
+    }
+    let myBook = new Book()
+    console.log(myBook.bookInfo() )

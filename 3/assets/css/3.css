@@ -137,3 +137,27 @@ h3{
        
 
     }
+    li{
+        display: none;
+    }
+    #berger{
+        display: inline-block;
+        color: tomato;
+    }
+    
+    .box1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .pic{
+        flex-basis:50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    #img{
+        width:70%;
+    }

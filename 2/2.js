@@ -10,12 +10,28 @@ constructor(input,input2){
 }
 }
 class Book extends Media {
-    constructor(input,input2){
+    author
+    constructor(input,input2,temp1){
         super(input,input2)
+        this.author=temp1
     }
     bookInfo(){
-        return this.info()
+        return this.info()+ ", " + `author: ${this.author}`
     }
     }
-    let myBook = new Book()
+    class Film extends Media {
+        director
+        constructor(input,input2,temp2){
+            super(input,input2)
+            this.director=temp2
+
+        }
+        filmInfo(){
+            return this.info() + ", " + ` director: ${this. director}`
+        } 
+    
+    }
+    let myBook = new Book("Great Expectations","book","Charles Dickens")
+    let myFilm= new Film("Spider-Man" , "book","Jon Watts")
     console.log(myBook.bookInfo() )
+    console.log(myFilm.filmInfo () )

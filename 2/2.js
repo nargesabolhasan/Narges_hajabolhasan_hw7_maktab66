@@ -32,6 +32,6 @@ class Book extends Media {
     
     }
     let myBook = new Book("Great Expectations","book","Charles Dickens")
-    let myFilm= new Film("Spider-Man" , "book","Jon Watts")
+    let myFilm= new Film("Spider-Man" , "film","Jon Watts")
     console.log(myBook.bookInfo() )
     console.log(myFilm.filmInfo () )

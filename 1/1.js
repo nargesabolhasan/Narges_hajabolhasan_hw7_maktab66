@@ -26,6 +26,10 @@
             this.project=prop
         }
     }        
+    this.info=function () {
+        return `{className:${this.lessonName}, classUnit:${this.unit} ,classcapacity: ${this.capacity},${this.book?" book:true" : ""}${this.project?" project:true" : ""} }`
+        };
+    }
 
     
        

@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<p id="p" style="font-size: 80px;"></p>
+<button id="add">add</button>
+<button id="reset">reset</button>
+<script >
+let counter=document.getElementById("p")
+counter.innerHTML=0
+const start=document.getElementById("add")
+const end=document.getElementById("reset")
+start.addEventListener('click',e=>{
+counter.innerText++
+})
+end.addEventListener('click',e=>{
+counter.innerText=0
+})
+</script>
+
+</body>
+</html> 

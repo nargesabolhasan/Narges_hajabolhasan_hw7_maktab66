@@ -1,5 +1,5 @@
 
-//بخش الف
+////بخش الف
 // function Lesson (name, capacity,unit){
 //     this.lessonName=name;
 //     this.capacity=capacity;
@@ -14,7 +14,7 @@
 //     console.log( softEngineering.info()) 
 //     console.log( networkClass.info())
 
-  //بخش ب
+  ////بخش ب
   function Lesson (name, capacity,unit){
     this.lessonName=name;
     this.capacity=capacity;
